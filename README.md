@@ -1,2 +1,3 @@
 # ai-image-generation-site
-A site using the Open AI api dall e model to generate images
+
+A site where you can enter text and will be given an ai generated image in return. | 10-2-2023 | 11:07am |
