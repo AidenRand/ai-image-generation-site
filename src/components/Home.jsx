@@ -1,4 +1,6 @@
 import React, { useRef } from 'react';
+import '../styling/home.scss';
+import SubmitIcon from '../assets/submit.png';
 
 function Home() {
     const inputRef = useRef(0);
@@ -11,6 +13,10 @@ function Home() {
                     placeholder='A cat riding a dog while blepping'
                     type='text'
                 ></input>
+
+                <button className='submit-btn'>
+                    <img src={SubmitIcon} alt='submit-icon' />
+                </button>
             </div>
         </div>
     );
