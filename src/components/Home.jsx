@@ -2,7 +2,6 @@ import React, { useRef } from 'react';
 import '../styling/home.scss';
 import SubmitIcon from '../assets/submit.png';
 import OpenAI from 'openai';
-import createImage from 'openai';
 
 async function getImage(user_input) {
     const openai = new OpenAI({
